@@ -32,5 +32,16 @@ For each of the folders i.e. "Hough+Regression", "Hough+Regression+Learn", "Homo
    ./file_name
    ```
 
+# Test Videos
+
+The folder "test_videos", contains sample videos the code can be tested on. 
+A small section of the output video for each sample video has been posted along with the sample video.
+
+# Roadmap 
+
+Test the working of this simple approach and compare the accuracy with modern machine learning and computer vision models trained specifically for the purpose of lane detection. 
+
+
+
 
 
