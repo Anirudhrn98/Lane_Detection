@@ -5,8 +5,8 @@ This repository contains the implementation details of a lane detection system f
 These pipelines include:
 
 1. Using hough lines and linear regression.
-2. Using hough lines and linear regression along with using the information from previous frames.
-3. Using Homography to convert input frame to bird's eye point of view.
+2. Using Homography to convert input frame to bird's eye point of view.
+3. Using hough lines\circles and linear regression for a curved road. 
 
 # Packages required to run the code 
 
@@ -14,7 +14,7 @@ You need to have opencv installed on your system to run the code.
 
 # How to run the code
 
-For each of the folders i.e. "Hough+Regression", "Hough+Regression+Learn", "Homography", steps are the same, they are as follows, 
+For each of the folders i.e. "Hough+Regression", "CurvedRoad", "Homography", steps are the same, they are as follows, 
 
 1. Open CmakeLists.txt and replace "path_to_opencv" with the path to where you have opencv installed in your system. 
 2. Access the folder using your terminal.
